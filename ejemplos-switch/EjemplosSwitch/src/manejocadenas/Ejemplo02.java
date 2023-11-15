@@ -15,6 +15,8 @@ public class Ejemplo02 {
         String pais;
         
         pais = "Ecuador";
+        // El metodo .charAt sirve para seleccionar caracteres 
+        // segun el numero que escribamos (0,1,2,3,4,5...)
         char letra = pais.charAt(0);
         System.out.printf("%s\n", letra);
         
