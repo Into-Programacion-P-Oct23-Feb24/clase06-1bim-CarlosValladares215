@@ -12,7 +12,10 @@ package manejocadenas;
 public class EjemploCadenas {
     public static void main(String[] args) {
         String ciudad = "loJa";
+        // El metodo de toUpperCase() hace que las variables tipo cadena
+        // se pongan en mayuscula
         ciudad = ciudad.toUpperCase();
+        // El meto toLowerCase() convierte una variable tipo string en minuscula
         System.out.printf("%s\n", ciudad.toLowerCase());
         System.out.printf("%s\n", ciudad.toUpperCase());
         System.out.printf("%s\n", ciudad);
